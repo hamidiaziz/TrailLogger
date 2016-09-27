@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/fragment_details_fl_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="4"
+        android:background="#c1f4fa">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Click to add photo"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#00ffe1">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:ems="10"
+            android:hint="Date"
+            android:inputType="time"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:ems="10"
+            android:hint="Time"
+            android:inputType="date"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:hint="Enter comments"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity=""
+            android:text="Upload"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>

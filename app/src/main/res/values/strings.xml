@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrailLogger</string>
+    <string name="open">OpenDrawer</string>
+    <string name="close">CloseDrawer</string>
+</resources>

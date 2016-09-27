@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:background="#fefffe">
+
+
+        <ImageView
+            android:id="@+id/fragment_log_new_trail_ivw_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dummy_map"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Log Details"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/fragment_log_new_trail_btn_log_details"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Start"
+                android:id="@+id/fragment_log_new_trail_btn_start"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
